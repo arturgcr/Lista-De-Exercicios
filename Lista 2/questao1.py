@@ -4,9 +4,9 @@ class Bola():
         self.circunferencia = circunferencia
         self.material = material
     
-    def trocaCor(self, cor):
+    def setCor(self, cor):
         self.cor = cor
 
-    def mostraCor(self):
-        return "A cor da bola é:" + str(self.cor)
+    def getCor(self):
+        return self.cor
 

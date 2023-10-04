@@ -2,10 +2,10 @@ class Quadrado():
     def __init__(self, lado):
         self.tamanhoLado = lado
 
-    def mudarLado(self, novoLado):
+    def setLado(self, novoLado):
         self.tamanhoLado = novoLado
 
-    def retornaLado(self):
+    def getLado(self):
         return self.tamanhoLado
     
     def area(self):
